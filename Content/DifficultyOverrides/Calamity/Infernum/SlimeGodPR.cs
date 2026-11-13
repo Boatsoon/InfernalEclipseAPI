@@ -31,11 +31,6 @@ using static SlimeGodPR.RagSlimeGod;
 
 namespace SlimeGodPR
 {
-	// Please read https://github.com/tModLoader/tModLoader/wiki/Basic-tModLoader-Modding-Guide#mod-skeleton-contents for more information about the various files in a mod.
-	public class SlimeGodPR : Mod
-	{
-
-	}
     public class ProjUtils
     {
         public static void FloatAbovePlayer(Vector2 lookAtPosition, NPC NPC, float speed, float inertia, Vector2 destination, float radians, float fault, bool slowDown, bool lerpRotation, float lerpRate)
